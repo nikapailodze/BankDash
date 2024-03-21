@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankDash</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sider">
+            <div class="sider__logo">
+                <img src="./images/Logo (1).svg" alt="">
+            </div>
+
+            <nav class="nav">
+                <div onclick="activeDashboard()" class="nav__item"> 
+                    <div id="dashboard_active" class="nav__item-active"></div>
+                    <img id="dashboard_image" src="./images/home 2.png" alt="">
+                    <p>Dashboard</p>
+                </div>
+                <div onclick="activeTransaction()"  class="nav__item"> 
+                    <div id="transaction_active" class="nav__item-active invisible "></div>
+                    <img id="transaction_image" src="./images/transfer 1.png" alt="">
+                    <p>Transactions</p>
+                </div>
+                <div class="nav__item"> 
+                    <div class="nav__item-active invisible"></div>
+                    <img src="./images/user 3 1.png" alt="">
+                    <p>Accounts</p>
+                </div>
+                <div class="nav__item"> 
+                    <div class="nav__item-active invisible"></div>
+                    <img src="./images/Group.png" alt="">
+                    <p>Investments</p>
+                </div>
+                <div class="nav__item"> 
+                    <div class="nav__item-active invisible"></div>
+                    <img src="./images/credit-card 1.png" alt="">
+                    <p>Credit Cards</p>
+                </div>
+                <div class="nav__item"> 
+                    <div class="nav__item-active invisible"></div>
+                    <img src="./images/loan 1.png" alt="">
+                    <p>Loans</p>
+                </div>
+                <div class="nav__item"> 
+                    <div class="nav__item-active invisible"></div>
+                    <img src="./images/serv.png" alt="">
+                    <p>Services</p>
+                </div>
+                <div class="nav__item"> 
+                    <div class="nav__item-active invisible"></div>
+                    <img src="./images/econometrics 1.png" alt="">
+                    <p>My Privileges</p>
+                </div>
+                <div class="nav__item"> 
+                    <div class="nav__item-active invisible"></div>
+                    <img src="./images/settings solid 1.png" alt="">
+                    <p>Setting</p>
+                </div>
+            </nav>
+        </div>
+
+        <div class="wrapper">
+            <div class="header">
+                
+                <h1>Transactions</h1>
+                
+                <div class="header__input">
+                    <input class="header__input-btn" placeholder="Search for something" type="text">
+                    <img src="./images/setting.png" alt="">
+                    <img src="./images/Group 3.png" alt="">
+                    <img src="./images/Mask Group.png" alt="">
+                    
+                </div>
+            </div>
+            <div class="content">
+                <div class="content__cards">
+                    <div class="first__section">
+                        <div class="first__section-cards">
+                            <div class="first__section-itles">
+                                <p>My Cards</p>
+                                <a href="">See All</a>
+                            </div>
+                            <div class="first__section-cards-wrapper">
+                                <div class="cardNumber1">
+                                    
+                                    <div class="balance">
+                                        <div>
+                                            <p>Balance</p>
+                                            <p>$5,756</p>
+                                        </div>
+
+                                        <img src="./images/Chip_Card.png" alt="">
+                                    </div>
+
+
+                                    <div class="cardHolder">
+                                        <div>
+                                            <p>CARD HOLDER</p>
+                                            <p>Eddy Cusuma</p>
+                                        </div>
+                                        <div>
+                                            <p>VALID THRU</p>
+                                            <p>12/22</p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="pincode">
+                                        <p>3778 **** **** 1234</p>
+                                        <img src="./images/pincode.png" alt="">
+                                    </div>
+
+
+
+                                </div>
+                                <div class="cardNumber1">
+                                    
+                                    <div class="balance">
+                                        <div>
+                                            <p>Balance</p>
+                                            <p>$5,756</p>
+                                        </div>
+
+                                        <img src="./images/Chip_Card.png" alt="">
+                                    </div>
+
+
+                                    <div class="cardHolder">
+                                        <div>
+                                            <p>CARD HOLDER</p>
+                                            <p>Eddy Cusuma</p>
+                                        </div>
+                                        <div>
+                                            <p>VALID THRU</p>
+                                            <p>12/22</p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="pincode">
+                                        <p>3778 **** **** 1234</p>
+                                        <img src="./images/pincode.png" alt="">
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <p class="transaction__title">Recent Transaction</p>
+                        <div class="first__section-transaction">
+                            
+                            <div>
+                                <div>
+                                    <img src="./images/wallet.png" alt="">
+                                    <div>
+                                        <p>Deposit from my Card</p>
+                                        <p>28 January 2021</p>
+                                    </div>
+                                    <p>+$5,400</p>
+                                </div>
+                                <div>
+                                    <img src="./images/paypal.png" alt="">
+                                    <div>
+                                        <p>Deposit Paypal</p>
+                                        <p>25 January 2021</p>
+                                    </div>
+                                    <p>+$2,500</p>
+                                </div>
+                                <div>
+                                    <img src="./images/swearcoin.png" alt="">
+                                    <div>
+                                        <p>Jemi Wilson</p>
+                                        <p>21 January 2021</p>
+                                    </div>
+                                    <p>-$850</p>
+                                </div>
+                            </div>
+                        </div>  
+                        </div>
+                        
+                    </div>
+
+
+
+                    <div class="section2">
+                        <div>
+                            <p>Weekly Activity</p>
+                            <div>
+                                <img  src="./images/chart.png" alt="">
+                            </div>
+                        </div>
+
+                        <div>
+                            <p>Expense Statistics</p>
+                            <div class="roundChart-wrapper">
+                                <img class="roundChart" src="./images/roudncharrt.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="section3">
+                        <div class="qiackTransfer">
+                            <p>Quick Transfer</p>
+                            <div class="qiackTransfer__content"> 
+                                <div class="qiackTransfer__content-text">
+                                    <div>
+                                        <div>
+                                            <img src="./images/Mask.png" alt="">
+                                        </div>
+                                        <div>
+                                            <p>Livia Bator</p>
+                                            <p>CEO</p>
+                                        </div>
+                                        
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <img src="./images/randy.png" alt="">
+                                        </div>
+                                        <div>
+                                            <p>Randy Press</p>
+                                            <p>Director</p>
+                                        </div>
+                                        
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <img src="./images/workman.png" alt="">
+                                        </div>
+                                        <div>
+                                            <p>Workman</p>
+                                            <p>Designer</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="">
+                                        <img src="./images/less.png" alt="">
+                                    </div>
+                                </div>
+                                
+                                <div class="qiackTransfer__content-buttons">
+                                    <p>Write Amount</p>
+                                    <div>
+                                        <input value="525.50" class="qiackTransfer__content-buttons-input" type="text">
+                                        <input class="qiackTransfer__content-buttons-submit" type="submit" value="Send">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="balanceHistory">
+                            <p>Balance History</p>
+                            <div class="balanceHistory__content">
+                                Some bulshitass Grafi romelic ver gavakete
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <div></div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
